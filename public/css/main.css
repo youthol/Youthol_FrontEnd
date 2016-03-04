@@ -1,0 +1,814 @@
+﻿/*------------------------------------*\
+	css by Gavin
+		——2015 winter
+
+	以下是目录结构
+	1、校园资讯
+	2、共建频道
+	3、文娱频道
+	4、四大栏目
+	5、服务频道
+	6、footer
+		小图标定义
+	7、media 屏幕适配
+\*------------------------------------*/
+
+.large_title{
+	width: 111px;
+	height: 27px;
+}
+.middle_title{
+	margin-bottom: 5px;
+	font-size: 1.5em;
+	line-height: 1.95em;
+	padding: 0px;
+}
+.color{
+	margin: 9px 0px;
+	border-top: 2px solid #2593FF;
+	z-index: 2;
+	position: absolute;
+	top: 25px;
+	width: 15%;
+}
+.basecolor{
+	z-index: 1;
+	position: absolute;
+	width: 70%;
+	border-top: 2px solid #AFAEAE;
+	top: 14px;
+}
+.gongjianpindao .color{border-top: 2px solid #F68512;}
+.wenxue .color{border-top: 2px solid #00A11A;}
+.yule .color{border-top: 2px solid #D002BA;}
+.middle_title .color{border-top: 2px solid #F68512; width: 25%;}
+.middle_title .basecolor{width: 100%;}
+.fuwuzhinan .color{border-top: 2px solid #FF0000;}
+.fullcolor .color,.fullcolor1 .color{
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-ms-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+}
+.fullcolor:hover .color{
+	width:70%;
+}
+.fullcolor1:hover .color{
+	width:100%;
+}
+.getmore{
+	text-align:right;
+	padding-right:20%;
+}
+.gongjianpindao .getmore,.wenyupindao .getmore{
+	position:absolute;
+	right:-100px;
+	bottom:0;
+	padding-right:0;
+}
+
+/*------------------------------------*\
+	1、校园资讯
+\*------------------------------------*/
+.xiaoyuanzixun{
+	width: 100%;
+	margin-top: 40px;
+}
+.xiaoyuanzixun .zixun .title{
+	margin: 0px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	border-top: 1px dashed #AFAEAE;
+	border-bottom: 1px dashed #AFAEAE;
+	padding-left: 3px;
+}
+.xiaoyuanzixun .zixun a{
+	margin: 0px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 25px;
+}
+.xiaoyuanzixun .zixun a{
+	font-
+}
+/*大标题*/
+
+/*  小标题  */
+.xiaoyuanzixun .title a{
+	line-height: 25px;
+	color: #2593FF;
+}
+.xiaoyuanzixun .xuegong .title{
+	border: none;
+}
+
+
+
+/*  更多  */
+.xiaoyuanzixun .xuegong .title a{
+	color: #F68512;
+}
+.xiaoyuanzixun .tongzhi .title a{
+	color: #2593FF;
+	line-height: 25px;
+}
+.xiaoyuanzixun .zixun .title span{
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+}
+.xiaoyuanzixun .zixun .title span:after{
+	content: url(../img/more.png);
+	vertical-align: middle;
+	padding-left: 5px;
+}
+.xiaoyuanzixun .zixun .title span a{
+	color: #AFAEAE;
+	font-size: 14px;
+}
+/*  列表定义  */
+.xiaoyuanzixun .xuegong .row div{
+	padding: 0px;
+}
+.xiaoyuanzixun .xuegong .row div:nth-child(1){
+	padding-left: 10px;
+}
+.xiaoyuanzixun .xuegong .row div:nth-last-child(1){
+	padding-right: 10px;
+}
+.xiaoyuanzixun .xuegong .row .title{
+	border-top: 1px dashed #AFAEAE;
+	border-bottom: 1px dashed #AFAEAE;
+}
+.xiaoyuanzixun .container .row ul,
+.gongjianpindao .container .row ul{
+	margin-top: 15px;
+}
+.xiaoyuanzixun .container .row ul li,
+.gongjianpindao .container .row ul li{
+	height: 25px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+
+
+/*------------------------------------*\
+	2、共建频道
+\*------------------------------------*/
+.gongjianpindao{
+	width: 100%;
+	margin-top: 20px;
+}
+.gongjianpindao .title{
+	margin: 0px;
+	height: 23px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 23px;
+}
+.gongjianpindao .title a{
+	font-size: 18px;
+	color: #F68512;
+}
+.gongjianpindao .xinling_submenu a{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #F68512;
+}
+.gongjianpindao .xinling_submenu{
+	float: left;
+	width: 20%;
+	font-size: 12px;
+	line-height: 23px;
+}
+.gongjianpindao .common{
+	margin: 20px 0;
+}
+.gongjianpindao .xinlingzhiyue{
+	margin-top: 0px;
+}
+.gongjianpindao .shiyanshi{
+	margin-top: 10px;
+}
+.gongjianpindao .tab-content .toplist{
+	margin-left: 30px;
+	position:relative;
+}
+.gongjianpindao .tab-content .imglist,.gongjianpindao .tab-content .toplist{
+	float: left;
+}
+.gongjianpindao .xinlingzhiyue .row:nth-child(1),.gongjianpindao .qiluwenhua .row:nth-child(1){
+	border-top: 1px dashed #AFAEAE;
+	border-bottom: 1px dashed #AFAEAE;
+}
+.gongjianpindao .xinlingzhiyue .row:nth-child(2),.gongjianpindao .qiluwenhua .row:nth-child(2){
+	margin-top: 21px;
+}
+.gongjianpindao .tab-content a{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 25px;
+}
+.gongjianpindao .zhuanti{
+	height: 400px;
+}
+.gongjianpindao .container .row ul{
+	margin-top: 0px;
+}
+.gongjianpindao .qiluwenhua ul,.gongjianpindao .xinlingzhiyue ul{
+	margin:0px;
+}
+.gongjianpindao .xinlingzhiyue .ul_gongjian .active::before{
+	content: url(../img/left_gongjian.gif);
+}
+.gongjianpindao .qiluwenhua .ul_gongjian .active::before{
+	content: url(../img/left_gongjian.gif);
+}
+
+
+/*心理在线*/
+.gongjianpindao #xinlizaixian{
+    margin-left:10px;
+}
+.gongjianpindao #xinlizaixian a {
+color:#fff;
+}
+.gongjianpindao #xinlizaixian a span{
+	display: inline-block;
+	background: url(../img/lab.png) no-repeat;
+	background-position: 0px 0px;
+	vertical-align: middle;
+	width: 65px;
+	height: 49px;
+	margin: 0 25px 0 16px;
+	color:#fff;
+}
+.gongjianpindao #xinlizaixian .zixun{
+	height: 58px;
+	background-position: 13px -49px;
+
+}
+.gongjianpindao #xinlizaixian .liuyan{
+	height: 57px;
+	background-position: 8px -107px;
+}
+.gongjianpindao #xinlizaixian .ceshi{
+	height: 57px;
+	background-position: 0px -164px;
+}
+
+
+.gongjianpindao #xinlizaixian .col-xs-12:nth-child(1){
+    height: 210px;
+	background-color: #00A11A;
+	text-align:center;
+	padding-top:55px;
+	color:#FFF;
+}
+
+.gongjianpindao #xinlizaixian  .col-xs-4:nth-child(2) .col-xs-12{
+	height: 210px;
+	background-color: #8C15C4;
+	text-align:center;
+	padding-top:55px;
+
+}
+.gongjianpindao #xinlizaixian .col-xs-4:nth-child(3) .col-xs-12 {
+	height: 210px;
+	background-color: #D9512B;
+	text-align:center;
+	padding-top:55px;
+}
+
+.gongjianpindao #xinlizaixian .effect:hover a{
+	-webkit-animation: fadeInRight 1s ease;
+	-moz-animation: fadeInRight 1s ease;
+	-ms-animation: fadeInRight 1s ease;
+	-o-animation: fadeInRight 1s ease;
+	animation: fadeInRight 1s ease;
+}
+
+
+
+/*广告条*/
+.gongjianpindao .advertise{
+	height: 90px;
+}
+
+/*青春实验室部分*/
+.gongjianpindao .shiyanshi .col-xs-7:nth-child(1),
+.gongjianpindao .shiyanshi .col-xs-5:nth-child(2){
+	height: 156px;
+}
+.gongjianpindao .shiyanshi .col-xs-5:nth-child(2){
+	background-color: #00A11A;
+}
+.gongjianpindao .shiyanshi .col-xs-7:nth-child(3){
+	height: 74px;
+	margin-top: 8px;
+}
+.gongjianpindao .shiyanshi .col-xs-5:nth-child(4){
+	height: 74px;
+	background-color: #8C15C4;
+	margin-top: 8px;
+}
+.gongjianpindao .shiyanshi .col-xs-7:nth-child(3) .col-xs-12:nth-child(1){
+	height: 74px;
+	background-color: #D9512B;
+}
+.gongjianpindao .shiyanshi .col-xs-7:nth-child(1) .col-xs-12:nth-child(1){
+	height: 74px;
+	background-color: #BD1D49;
+}
+.gongjianpindao .shiyanshi .col-xs-7 .col-xs-12:nth-child(2){
+	height: 74px;
+	background-color: #2C89EF;
+	margin-top: 8px;
+}
+.gongjianpindao .shiyanshi a{
+	color: #FFF;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 74px;
+}
+/*实验室图标定义*/
+.gongjianpindao .shiyanshi a span{
+	display: inline-block;
+	background: url(../img/lab.png) no-repeat;
+	background-position: 0px 0px;
+	vertical-align: middle;
+	width: 60px;
+	height: 49px;
+	margin: 0 25px 0 16px;
+}
+.gongjianpindao .shiyanshi .team{
+	height: 58px;
+	background-position: 0px -49px;
+}
+.gongjianpindao .shiyanshi .map{
+	height: 57px;
+	background-position: 0px -107px;
+}
+.gongjianpindao .shiyanshi .more{
+	height: 57px;
+	background-position: 0px -164px;
+}
+.gongjianpindao .shiyanshi .wechat span{
+	width: 97px;
+	height: 97px;
+	background: url(../img/wechat.png) no-repeat;
+	margin-top: 15px;
+}
+.gongjianpindao .shiyanshi .wechat a{
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+}
+.gongjianpindao .shiyanshi .effect:hover a{
+	-webkit-animation: fadeInRight 1s ease;
+	-moz-animation: fadeInRight 1s ease;
+	-ms-animation: fadeInRight 1s ease;
+	-o-animation: fadeInRight 1s ease;
+	animation: fadeInRight 1s ease;
+}
+
+/*青春专题*/
+.gongjianpindao .zhuanti .col-xs-12:nth-child(2) img,
+.wenyupindao .zhuanti .col-xs-12:nth-child(2) img{
+	height: 157px;
+	width: 100%;
+}
+.gongjianpindao .zhuanti .col-xs-12:nth-child(3) a,
+.wenyupindao .zhuanti .col-xs-12:nth-child(3) a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 25px;
+}
+.gongjianpindao .zhuanti .col-xs-12:nth-child(3),
+.wenyupindao .zhuanti .col-xs-12:nth-child(3){
+	margin: 15px 0px;
+}
+.wenyupindao .zhuanti .middle_title img{
+	width: 58px;
+	height: 19px;
+}
+.gongjianpindao .container .zhuanti ul{
+	margin-top: 10px;
+}
+
+/*------------------------------------*\
+	3、文娱频道
+\*------------------------------------*/
+.wenyupindao{
+	width: 100%;
+	margin-top: 10px;
+}
+.wenyupindao .wenxue,
+.wenyupindao .yule{
+	height: auto;
+}
+.wenyupindao .yule{
+	margin-top:40px;
+}
+.wenyupindao .wenxue .submenu,
+.wenyupindao .yule .submenu{
+	float: left;
+	width: 20%;
+}
+.wenyupindao .wenxue ul.col-xs-12,
+.wenyupindao .yule ul.col-xs-12{
+	border-top: 1px dashed #AFAEAE;
+	border-bottom: 1px dashed #AFAEAE;
+	margin-top: 15px;
+}
+.wenyupindao .wenxue li.active::before{
+	content: url(../img/left.gif);
+}
+.wenyupindao .yule li.active::before{
+	content: url(../img/left_yule.gif);
+}
+.wenyupindao .wenxue .submenu a{
+	color: #00A11A;
+	font-size: 18px;
+	line-height: 23px;
+	font-family: "微软雅黑";
+}
+.wenyupindao .yule .submenu a{
+	color: #D002BA;
+	font-size: 18px;
+	line-height: 23px;
+	font-family: "微软雅黑";
+}
+
+#myTab a:hover{
+	text-decoration: underline;
+}
+.wenyupindao .tab-content .imglist,
+.gongjianpindao .tab-content .imglist{
+	overflow:hidden;
+}
+.wenyupindao .tab-content .imglist img,
+.gongjianpindao .tab-content .imglist img{
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-ms-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+}
+.wenyupindao .tab-content .imglist:hover img,
+.gongjianpindao .tab-content .imglist:hover img{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.wenyupindao .tab-content{
+	margin-top: 15px;
+}
+.wenyupindao .tab-content .toplist{
+	margin-left: 30px;
+	position:relative;
+}
+.wenyupindao .tab-content .toplist a{
+	line-height: 27px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.wenyupindao .tab-content .toplist a:hover{
+	color: #008aff;
+	text-decoration: underline;
+}
+.wenyupindao .tab-content .imglist,.wenyupindao .tab-content .toplist{
+	float: left;
+}
+
+#mianduimian a{
+	line-height: 27px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.wenyupindao .facetoface{
+	margin-top: 10px;
+}
+
+/*------------------------------------*\
+	4、四大栏目
+\*------------------------------------*/
+.sidalanmu{
+	width: 100%;
+	margin-top: 20px;
+}
+.zhuanti .imglist,
+.sidalanmu .imglist{
+	overflow:hidden;
+}
+.zhuanti .imglist img,
+.sidalanmu .imglist img{
+	width:100%;
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-ms-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+}
+.zhuanti .imglist:hover img,
+.sidalanmu .imglist:hover img{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.sidalanmu .toplist a{
+	line-height: 25px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.sidalanmu .toplist{
+	margin-top:10px;
+}
+
+
+/*------------------------------------*\
+	5、服务指南
+\*------------------------------------*/
+.fuwuzhinan{
+	width: 100%;
+	margin-top: 40px;
+}
+.fuwuzhinan .submenu{
+	float: left;
+	width: 25%;
+}
+.fuwuzhinan .xueshengshiwu .submenu{
+	float: left;
+	width: 25%;
+}
+.fuwuzhinan .submenu a{
+	color: #ff0000;
+	font-size: 14px;
+	line-height: 23px;
+	font-family: "微软雅黑"
+}
+.fuwuzhinan .dashedline{
+	border-top: 1px dashed #AFAEAE;
+	border-bottom: 1px dashed #AFAEAE;
+}
+.fuwuzhinan .dashedline li.active::before{
+	content: url(../img/left_bottom.gif);
+}
+.fuwuzhinan .toplist{
+	margin-top:10px;
+}
+.fuwuzhinan .toplist a{
+	line-height: 25px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+/*------------------------------------*\
+	6、footer
+\*------------------------------------*/
+.footer{
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+	background: #FFF;
+	padding-bottom: 50px;
+	-moz-box-shadow:0px -3px 5px -3px #828282; 
+	-webkit-box-shadow:0px -3px 5px -3px #828282;
+	-o-box-shadow:0px -3px 5px -3px #828282; 
+	box-shadow:0px -3px 5px -3px #828282;
+	behavior: url(./newjs/PIE.htc);
+}
+.footer .title{
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+
+/*	青春团队与关注我们  */
+.footer .container .row div:nth-child(1){
+	margin-top: 87px;
+}
+.footer .container .row div:nth-child(n+2){
+	margin-top: 54px;
+}
+.footer .container .row div:nth-child(1) img{
+	width: 251px;
+	height: 80px;
+}
+.footer .container .row div:nth-child(1) img:hover{
+	-webkit-animation: tada 1s ease;
+	-moz-animation: tada 1s ease;
+	-ms-animation: tada 1s ease;
+	-o-animation: tada 1s ease;
+	animation: tada 1s ease;
+}
+.footer .container .row div:nth-child(n+1) ul{
+	height: auto;
+	margin-top: 5px;
+}
+.footer .container .row div:nth-child(n+1) ul li{
+	width: 100px;
+	height: auto;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin-top: 15px;
+	cursor: pointer;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.footer .container .row div:nth-child(n+1) ul li:hover a{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	margin-left: -3px;
+}
+.footer .container .row div:nth-last-child(1) ul li:hover{
+	margin-left: -5px;
+}
+/*	联系我们  */
+.footer .container .row div:nth-last-child(1) ul{
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+}
+.footer .container .row div:nth-last-child(1) ul li{
+	width: 100%;
+	height: auto;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin-top: 15px;
+	padding-top: 2px;
+	vertical-align: middle;
+}
+
+/*  小图标定义  */
+.footer .footericon{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/footer.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.footer .tweibo{background-position: 0px -47px;}
+.footer .xweibo{background-position: 0px -16px;}
+.footer .renren{background-position: 0px -31px;}
+.footer .address{background-position: 0px -62px;}
+.footer .belong{background-position: 0px -78px;}
+.footer .postcode{background-position: 0px -94px;}
+.footer .telephone{background-position: 0px -110px;}
+.footer .email{background-position: 0px -126px;}
+
+/*  友情链接  */
+.webui-popover-content .xiaonei,.webui-popover-content .xiaowai{
+	height: 50px;
+}
+.webui-popover-content ul li{
+	float: left;
+	padding: 3px 8px;
+}
+.webui-popover-content ul li a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.webui-popover-content ul li a:hover{
+	color: #FFF;
+	background-color: #B56F29;
+}
+/*------------------------------------*\
+	7、mdeia 屏幕适配
+\*------------------------------------*/
+@media screen and (max-width: 768px) {
+	/*  共建频道  */
+	.gongjianpindao .title{
+		line-height: 46px;
+	}
+	.gongjianpindao .title a,.gongjianpindao .xinling_submenu a{
+		color: #F68512;
+	}
+	.gongjianpindao .xinling_submenu{
+		text-align: center;
+		border-left: 1px solid #F68512;
+		padding: 2px;
+	}
+
+	/*   实验室部分 */
+	.gongjianpindao .shiyanshi a span{
+		margin: 0;
+	}
+	/*  文娱频道  */
+	.wenyupindao .wenxue .submenu,
+	.wenyupindao .yule .submenu{
+		padding: 0 2px;
+		text-align: center;
+		border-left: 1px dashed #00A11A;
+	}
+	.wenyupindao .wenxue .submenu:nth-child(1),
+	.wenyupindao .yule .submenu:nth-child(1){
+		border: none;
+	}
+	
+	/*  四大栏目  */
+	.sidalanmu .imglist{
+		display:none;
+	}
+	.gongjianpindao .tab-content .toplist,
+	.wenxue .tab-content .toplist,
+	.yule .tab-content .toplist{
+		margin-left:0px;
+	}
+	.quicklinkbtn{display: none;}
+	.quicklinkcontent{display: none;}
+	.loginin{display: none;}
+	.menu .logo_2{display: none;}
+	.xiaoyuanzixun .middle_title{display: none;}
+	.gongjianpindao .large_title{margin:0 10px 5px 10px;}
+	.gongjianpindao .middle_title{display: none;}
+	.gongjianpindao .zhuanti .middle_title{display: block;}
+	.gongjianpindao .container .row:nth-child(n){
+		margin-top: 5px;
+	}
+	.xiaoyuanzixun .container .row .row:nth-child(n){
+		margin-top: 5px;
+	}
+	.smallmenu{display:none;}
+	.smallquickbtn{display:none;}
+	.smallquicklinkcontent{display:none;}
+	.sidalanmu .toplist{
+		margin-top:10px;
+		height:200px;
+		overflow:hidden;
+	}
+	/*  footer  */
+	.row{
+		margin: 0;
+	}
+	.footer{
+		width: 100%;
+		height: auto;
+	}
+	.footer .title{
+		text-align: center;
+	}
+	.footer .container .row div:nth-child(1){
+		margin: 0 auto;
+		text-align: center;
+		padding: 40px 0px 0px 0px;
+	}
+	.footer .container .row div:nth-child(2){
+		border-right: 1px dashed #AFAEAE;
+	}
+	.footer .container .row div:nth-child(n+1) ul li{
+		width: 100%;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+	.xiaoyuanzixun .container .row ul li,
+	.gongjianpindao .container .row ul li{
+		font-size: 12px;
+	}
+
+	#footerlogo{
+		width: 150px;
+		height: 48px;
+	}
+}
+@media screen and (min-width: 990px) and (max-width: 1280px) {
+	/*   实验室部分 */
+	.gongjianpindao .shiyanshi a span{
+		margin: 0;
+	}
+	#footerlogo{
+		width: 200px;
+		height: 64px;
+	}
+}
+
+/*四个中心*/
+.iframeStyle{
+padding-top:10px;
+   
+}
